@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ai List</title>
+</head>
+<style>/* Form container */
+    .form-container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+    }
+    h2{
+        margin-left: 36%;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* Form group */
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    /* Label */
+    label {
+      display: block;
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 5px;
+      margin-left: 3%;
+    }
+    
+    /* Input and Textarea */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 90%;
+      height: 30px;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      background-color: #ffffff;
+      box-shadow: none;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: none;
+      box-shadow: 0px 0px 10px #0c4f8a;
+    }
+    
+    /* Submit button */
+    button[type="submit"] {
+      background-color: #0c4f8a;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 25px;
+      margin-left: 36%;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #2500cc;
+    
+    }
+    </style>
+<body>
+    <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+  </ul>
+</nav>
+<br>
+<br>
+<div class="form-container">
+    <form action="#" method="post">
+      <h2>Contact Us</h2>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <br>
+      <div class="form-group">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,123 @@
+nav {
+  background-color:  #007bff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 21px 20px;
+}
+
+a:hover {
+  background-color: #111;
+}
+h1{
+  margin-left: 25%;
+  font-family:Georgia, Times, 'Times New Roman', serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttons{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+#search-bar {
+    width: 700px;
+    height: 40px;
+    margin-left: 20%;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  #search-bar:focus {
+    border-color: #666;
+  }
+  #search-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #search-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+.container {
+    max-width: 300px;
+    max-height: 450px;
+    margin-top: 6%;
+    margin-left:60px;
+    position: relative;
+    float: left;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.container img{
+    width: 300px;
+    height: 200px;
+}
+.container h2 {
+    font-size: 36px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px;
+    float: left;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #2500cc;
+}
+.about h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #007bff;
+  margin-top: 5%;
+  font-size: 50px;
+  margin-left: 44%;
+}
+.about p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 20%;
+  font-size: 25px;
+  margin-right: 20%;
+}
